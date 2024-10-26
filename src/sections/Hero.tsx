@@ -15,34 +15,34 @@ export const HeroSection = () => {
     <div className="size-[1020px] hero-ring"></div>
     <div className="size-[1220px] hero-ring"></div>
       <HeroOrbit size={800} rotation={-72} shouldOrbitSpin orbitDuration="48s" shouldStarSpin starDuration="6s">
-       <StarIcon className="size-28 text-emerald-300" />
+       <StarIcon className="size-28 text-emerald-300 animate-ping [animation-duration:1s]" />
       </HeroOrbit>
       <HeroOrbit size={720} rotation ={85} shouldOrbitSpin orbitDuration="46s" shouldStarSpin >
-       <div className="size-3 rounded-full text-emerald-300/20"></div>
+       <div className="size-3 rounded-full text-emerald-300/20 animate-ping-large [animation-duration:1s]"></div>
       </HeroOrbit>
       <HeroOrbit size={710} rotation ={144} shouldOrbitSpin orbitDuration="44s" shouldStarSpin starDuration="3s">
-       <SparkleIcon className="size-14 text-emerald-300/20" />
+       <SparkleIcon className="size-14 text-emerald-300/20 animate-ping-large [animation-duration:1s]" />
       </HeroOrbit>
       <HeroOrbit size={650} rotation ={-5} shouldOrbitSpin orbitDuration="42s" shouldStarSpin>
-       <div className="size-2 rounded-full text-emerald-300/20 "></div>
+       <div className="size-2 rounded-full text-emerald-300/20 animate-ping-large [animation-duration:1s]"></div>
       </HeroOrbit>
       <HeroOrbit size={590} rotation ={98} shouldOrbitSpin orbitDuration="40s" shouldStarSpin starDuration="6s">
-       <StarIcon className="size-8 text-emerald-300" />
+       <StarIcon className="size-8 text-emerald-300 animate-ping-large [animation-duration:1s]" />
       </HeroOrbit>
       <HeroOrbit size={550} rotation ={20} shouldOrbitSpin orbitDuration="38s" shouldStarSpin starDuration="6s">
-       <StarIcon className="size-12 text-emerald-300" />
+       <StarIcon className="size-12 text-emerald-300 animate-ping-large [animation-duration:1s]" />
       </HeroOrbit>
       <HeroOrbit size={530} rotation ={178} shouldOrbitSpin orbitDuration="36s" shouldStarSpin starDuration="3s">
-       <SparkleIcon className="size-10 text-emerald-300/20" />
+       <SparkleIcon className="size-10 text-emerald-300/20 animate-ping-large [animation-duration:1s]" />
       </HeroOrbit>
       <HeroOrbit size={520} rotation ={-41} shouldOrbitSpin orbitDuration="34s" shouldStarSpin>
-       <div className="size-2 rounded-full text-emerald-300/20"></div>
+       <div className="size-2 rounded-full text-emerald-300/20 animate-ping-large [animation-duration:1s]"></div>
       </HeroOrbit>
       <HeroOrbit size={440} rotation ={79} shouldOrbitSpin orbitDuration="32s" shouldStarSpin starDuration="3s">
-       <SparkleIcon className="size-5 text-emerald-300/20" />
+       <SparkleIcon className="size-5 text-emerald-300/20 animate-ping-large [animation-duration:1s]" />
       </HeroOrbit>
       <HeroOrbit size={430} rotation ={-14} shouldOrbitSpin orbitDuration="30s" shouldStarSpin starDuration="3s">
-       <SparkleIcon className="size-8 text-emerald-300/20" />
+       <SparkleIcon className="size-8 text-emerald-300/20 animate-ping-large [animation-duration:1s]" />
       </HeroOrbit>
       </div>
     <div className="container">
