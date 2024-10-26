@@ -1,5 +1,5 @@
 import StarIcon from "../assets/icons/star.svg"
-import { Fragment } from "react";
+import { Fragment } from "react"
 const words = [
   "Performance",
   "Accessible",

@@ -14,7 +14,7 @@ import mapImage from "../assets/images/map.png";
 import smileMemoji from "../assets/images/memoji-smile.png";
 import { ToolboxItem } from "../components/ToolboxItem";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef } from "react"
 const toolboxItem = [
   {
     title:'JavaScript',
